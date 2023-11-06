@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+ }
+
+ nav ul li {
+    display: inline;
+    margin-right: 20px;
+ }
+
+ nav ul li a {
+    text-decoration: none;
+    color: #fff;
+ }
+
+ nav ul li a:hover {
+    color: #ff9900;
+    cursor: pointer;
+ }
+
+ main {
+    margin: 0 auto;
+    width: 100%;
+ }
+
+ section {
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 20px;
+ }
+
+ article {
+    border: 1px solid #ccc;
+    padding: 10px;
+ }
+
+ footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+ }
+
+ iframe {
+    width: 100%;
+    height: 300px;
+ }
+
+ iframe {
+    width: 100%;
+    height: 300px;
+ }
+
+ a:link {
+    color: #0077b5;
+ }
+
+ a:visited {
+    color: #551a8b;
+ }
+
+ .container{
+    padding-top: 10px;
+    height: 100%;
+    width: 100%;;
+    margin: 0 auto;
+    transition: background .5s;
+}
+
+.container.active{
+    background-color: #222;
+    color: gainsboro;
+}
+
+.btn{
+    display: block;
+    margin: 0 auto;
+    margin-right: 50px;
+    width: 50px;
+    height: 25px;
+    border: 3px solid #333;
+    border-radius: 60px;
+    position: relative;
+    cursor: pointer;
+ }
+
+ .btn::before {
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background: #333;
+    border-radius: 50%;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-48%);
+    transition: left .5s;
+ }
+ 
+
+ .btn.active::before {
+    left: 25px;
+    background-color: gainsboro;
+ }
+
+ .btn.active{
+    border: solid 3px gainsboro;
+ }
+
+ .aviso{ 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    display: block;
+    transform: translateX(4px);
+ }
+
+
+ .body{
+    background: #fff;
+    transition: background .5s;
+ }
+
+ .body.active{
+    background: #222;
+ }
+
+ h1 {
+    transition: color 0.5s, transform 0.5s;
+    animation: colorChange 5s infinite alternate;
+ }
+
+ .titulofeira {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .conteudonoticias {
+    font-family:  Arial;
+    padding: 40px;
+    width: 870px;
+    display: block;
+    margin: 0 auto;
+ }
+
+ .imgconteudo {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+    width: 650px;
+    height: 340px;
+ }
+
+ iframe {
+    display: block;
+    margin: 0 auto;
+    width: 650px;
+    height: 340px;
+ }
+
+ @keyframes colorChange {
+    0% {
+        color: #fff;
+        transform: translateY(0);
+    }
+    100% {
+        color: #ff9900;
+        transform: translateY(-10px);
+    }
+ }

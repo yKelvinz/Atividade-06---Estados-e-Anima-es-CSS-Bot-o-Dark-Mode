@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornal do Limoeiro</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="body">
+    <header>
+        <h1>Jornal do Limoeiro</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="#">Política</a></li>
+                <li><a href="#">Esportes</a></li>
+                <li><a href="#">Curiosidades</a></li>
+            </ul>
+        </nav>
+    </header> 
+<div class="container">
+        
+    <main class="main">
+        
+        <div class="btn" ><div class="aviso"><p class="DM">Dark Mode</p></div></div>
+        <section>
+            <article>
+                
+                <h2 class="titulofeira">Preços aumentando na feira de quinta</h2>
+                <hr>
+                <p class="conteudonoticias">
+                    Os preços dos alimentos na tradicional Feira de Quinta do nosso bairro Limoeiro têm deixado os moradores de cabelo em pé. Nas últimas semanas, os frequentadores da feira têm notado um aumento significativo nos valores de produtos como frutas, verduras e legumes. Esse aumento tem gerado preocupação entre os consumidores, que buscam entender as razões por trás dessas mudanças no mercado local.</p>
+
+                    <img src="imagens/feira.png" alt="" class="imgconteudo">
+
+                <p class="conteudonoticias"><i>"Isso está um absurdo! Nunca vi os preços tão altos por aqui. Antes, eu conseguia comprar uma sacola cheia de frutas e verduras com o mesmo valor que agora mal dá para levar metade"</i>, disse Dona Maria.
+
+                    Os preços começaram a subir a partir de 15 de outubro, de acordo com feirantes locais, devido a variações climáticas, aumento dos custos de transporte e pressões econômicas. </p>
+                    
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/kU2l3icvS28?si=5DeGlI0bK4eYw97L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p class="conteudonoticias">O aumento significativo nos preços da "Feira de Quinta" do bairro Limoeiro, que teve início em 15 de outubro, tem causado consternação entre os moradores. Variações climáticas afetaram a produção agrícola local, juntamente com o aumento dos custos de transporte e as pressões econômicas do país, contribuindo para essa disparada de preços. Os consumidores agora aguardam medidas para conter os aumentos e garantir que os alimentos continuem acessíveis, enquanto a comunidade busca entender as razões por trás dessas mudanças.</p>
+                
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2 class="titulofeira">Acidente na Avenida Imperador envolvendo carro elétrico com direção autônoma deixa 2 mortos</h2>
+                <hr>
+                <p class="conteudonoticias">Um trágico acidente chocou a cidade hoje, quando um carro elétrico com direção autônoma se envolveu em uma colisão fatal na Avenida Imperador. O incidente resultou na perda de duas vidas, levantando questões sobre a segurança e regulamentação dos veículos autônomos nas vias públicas. As circunstâncias do acidente estão sob investigação, e a comunidade local busca respostas para entender o que levou a essa terrível tragédia.</p>
+
+                <img src="imagens/acidente-carro-eletrico-china.jpg" alt="" class="imgconteudo">
+                <p class="conteudonoticias">Preliminarmente, informações sugerem que um problema no sistema de direção autônoma de um veículo elétrico da GM pode ter desencadeado o acidente. Testemunhas relataram que o carro, em vez de parar em um sinal vermelho, acelerou repentinamente e colidiu com outro veículo. O impacto foi tão severo que o veículo capotou, resultando em dois trágicos óbitos. Imagens de segurança que capturaram o momento da colisão estão sob posse das autoridades, mas ainda não foram divulgadas, deixando a comunidade ansiosa por respostas e esclarecimentos adicionais sobre o ocorrido. As investigações estão em andamento para determinar a causa exata do mau funcionamento do sistema autônomo e as circunstâncias do acidente.</p>
+                <img src="imagens/tagreuters.com2023binary_LYNXMPEJ9G0QU-FILEDIMAGE.jpg" alt="" class="imgconteudo">
+                <p class="conteudonoticias">
+                    Até o momento, a General Motors (GM) não emitiu uma declaração oficial em relação ao acidente que envolveu seu veículo elétrico com sistema de direção autônoma. A empresa permanece em silêncio enquanto as investigações sobre o incidente continuam em andamento. Em uma matéria recente, pode-se observar que o regulador dos Estados Unidos abriu uma investigação sobre a segurança dos carros autônomos da GM, o que adiciona uma dimensão mais ampla ao cenário em questão. <a href="https://www.cnnbrasil.com.br/economia/regulador-dos-eua-abre-investigacao-sobre-seguranca-de-carros-autonomos-da-gm/ " target="_blank">link para a matéria</a>. A abertura dessa investigação levanta preocupações sobre a segurança dos veículos autônomos e coloca um foco maior na necessidade de regulamentação e supervisão rigorosa desse setor em rápida expansão.</p>
+                    
+            </article>
+        </section>
+        </main>
+</div>
+    </main>
+    <footer>
+        <p>Endereço: Rua do Jornal, Número 123 - Bairro Limoeiro</p>
+        <p>Contato: jornal@email.com | Telefone: (12) 45656-7890</p>
+    </footer>
+    <script>
+    const btn = document.querySelector('.btn')
+    const container = document.querySelector('.container')
+    const body = document.querySelector('.body')
+
+    btn.onclick = function()
+    {
+        this.classList.toggle('active')
+        container.classList.toggle('active')
+        body.classList.toggle('active')
+
+    }
+
+    </script>
+</body>
+</html>
